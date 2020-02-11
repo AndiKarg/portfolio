@@ -1,0 +1,41 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.6",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-gesture": "0.0.5",
+    "react-scripts": "^3.0.1",
+    "react-spring": "^8.0.27",
+    "react-use-gesture": "^5.2.4"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xProvocation/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xProvocation/portfolio/issues"
+  },
+  "homepage": "https://github.com/xProvocation/portfolio#readme"
+}
