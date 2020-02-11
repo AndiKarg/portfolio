@@ -6,8 +6,8 @@
   "main": "src/index.js",
   "dependencies": {
     "lorem-ipsum": "^1.0.6",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-gesture": "0.0.5",
     "react-scripts": "^3.0.1",
     "react-spring": "^8.0.27",
