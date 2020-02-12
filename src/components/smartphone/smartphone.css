@@ -1,0 +1,80 @@
+.statusbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    padding-left: 1.5rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.chathead {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    right: 0;
+    background: white;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chathead > div {
+    padding: 1.5rem;
+}
+
+.back {
+    color: blue;
+}
+
+.sendcont {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    height: 100px;
+}
+
+.inputcont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.inputcont > div {
+    border-radius: 10px;
+}
+
+.inputmessage {
+    width: 60%;
+    background: grey;
+    padding: 0.75rem;
+}
+
+.sendbtn {
+    background: rgb(0, 212, 0);
+    padding: 0.75rem;
+}
+
+.mainmessage {
+    position: absolute;
+    left: 20px;
+    background: white;
+    color: black;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+}
+
+.swipe {
+  text-align: center;
+  margin: 30px;
+  padding: 0;
+}

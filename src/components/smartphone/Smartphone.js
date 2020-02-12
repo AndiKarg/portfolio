@@ -1,9 +1,14 @@
 import React from 'react'
-import lorem from 'lorem-ipsum'
 import { useSpring, config } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { Device } from './Device'
 import { CardBack, Card } from './Cards'
+import './smartphone.css'
+import Bg from "./whatsappbg.png"
+import Notch from "./iphone-x-notch.png"
 
 const OFFSET = 90
 const SLOW = config.gentle
@@ -16,9 +21,25 @@ export default function App() {
   const transform = y.interpolate([OFFSET, 250], [40, 0], 'clamp').interpolate(val => `translate3d(0,${val}px,0)`)
   return (
     <Device>
-      <CardBack onClick={() => set({ y: OFFSET })} style={{ opacity, transform }}>
-        <h1 style={{ color: 'lightblue' }}>LOREM IPSUM</h1>
-        <h2>{lorem({ count: 5 })}</h2>
+      <div className="statusbar" style={{ backgroundImage: 'url(' + Notch + ')' }} />
+      <CardBack onClick={() => set({ y: OFFSET })} style={{ opacity, transform, backgroundImage: 'url(' + Bg + ')' }}>
+        <div className="statusbar" style={{ background: 'grey' }} />
+        <div className="chathead">
+          <div className="back">
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </div>
+          <div className="name">Name</div>
+          <div className="extra">Telefon und Pic</div>
+        </div>
+        <div className="mainmessage">Sers</div>
+        <div className="sendcont">
+          <div className="inputcont">
+            <div className="inputmessage">Hier Nachricht eingeben</div>
+            <div className="sendbtn">
+              <FontAwesomeIcon icon={faPaperPlane} />
+            </div>
+          </div>
+        </div>
       </CardBack>
       <Card {...bind()} style={{ transform: y.interpolate(y => `translate3d(0,${y}px,0)`) }}>
         <h1 className="swipe">Runterziehen zum Entsperren</h1>
