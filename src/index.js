@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Smartphone from './components/smartphone/Smartphone'
 import './styles.css'
-import Logo from './assets/img/ak-logo.png'
+import Logo from './assets/img/logo.png'
 
 function App() {
   return (

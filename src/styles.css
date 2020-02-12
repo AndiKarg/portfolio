@@ -54,7 +54,7 @@ code {
   height: 100px;
   width: 100px;
   background: center / contain;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .projects {
