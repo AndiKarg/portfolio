@@ -1,2 +1,7 @@
 //TODO
+// alt + enter = neue Todo
+// alt + s = started
+// alt + c = canceled
+// alt + d = done
     ✘ Scroll soll bei Slider stoppen (damit dort geslidet werden kann) @cancelled(20-02-11 19:12) @wasted(9s)
+    ☐ Benachrichtigung shaken lassen

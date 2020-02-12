@@ -44,8 +44,17 @@ code {
   justify-content: center;
 }
 
-.smartphone .inputcont, .smartphone .mainmessage  {
+.smartphone .inputcont,
+.smartphone .mainmessage {
   font-size: 1rem;
+}
+
+.logo {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: center / contain;
+  margin: 1rem;
 }
 
 .projects {
